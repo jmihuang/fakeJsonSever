@@ -63,5 +63,7 @@ http://localhost:3000/accout_like=jamie＆age_lte=30
 ** _ne不等於 **
 http://localhost:3000/accout_like=jamie＆age_ne=30
 
-## 自訂網址路由
-
+## 模凝較慢
+ ```
+ json-server -delay 500 account.json 
+ ```
